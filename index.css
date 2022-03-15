@@ -3,25 +3,113 @@
     padding: 0;
     box-sizing: content-box;
 }
-/* -----------------------header---------------------------- */
+/*---------header--------- */
 #main-header {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+.logo {
+    align-items: stretch;
+    /* background-image: url(./images/dsdsfsf\ 1.png); */
+}
+.click {
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: #383838;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 .give-button {
     background-color: #ec1a11;
     width: 175px;
-    height: 63px;
+    height: 42px;
     border-radius: 5px;
-    position: absolute;
-    left: 1294px;
-    top: 14px;
+    margin-top: 1rem;
+    font-size: 20px;
+    border: none;
 }
-/* ---------------------footer------------------------------- */
+/* ----main section one------- */
+.section-one {
+    width: 100%;
+    height: 55%;
+    opacity: 100%;
+    position: static;
+    /* z-index: -3; */
+}
+.section-one img {
+    width: 100%;
+    height:100%;
+    position: static;
+    z-index: -2;
+}
+.overlay {
+    width: 100%;
+    height: 45.2rem;
+    background-color: #0f0303;
+    z-index: 1;
+    position: absolute;
+    top: 9.5rem;
+    opacity: 75%;
+}
+.welcome-prayer{
+    z-index: 1;
+    position: absolute;
+    color: white;
+    top: 25rem;
+    left: 22%;
+    font-size: 5rem;
+
+}
+.welcome-note {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    top: 41rem;
+    left: 30%;
+    font-size:2rem;
+}
+/*-------main section two------ */
+.section-two {
+    width: 50%;
+    margin: 3rem auto;
+}
+.scriptures {
+    padding: 20px 0;
+}
+.schedule {
+    width: 20%;
+    height: 25%;
+    border-radius: 10px;
+}
+.exodus {
+    width: 15%;
+    margin: 0 auto;
+    /* padding: 0 0 10px; */
+    /* padding-left: 50%; */
+}
+.meeting {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 15%;
+}
+/* --------------footer----------------- */
 #main-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 3fr 1fr;
+    margin: 4rem 5%;
+}
+.reversed {
+    grid-column: 1/-1;
+    margin-top: 2rem;
+}
+div > h3 {
+    margin-bottom: 2rem;
 }
