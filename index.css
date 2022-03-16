@@ -83,11 +83,7 @@ a {
 .scriptures {
     padding: 20px 0;
 }
-.schedule {
-    width: 20%;
-    height: 25%;
-    border-radius: 10px;
-}
+
 .exodus {
     width: 15%;
     margin: 0 auto;
@@ -99,7 +95,38 @@ a {
     margin: 0 auto;
     padding-left: 15%;
 }
-/* --------------footer----------------- */
+.time-table {
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.schedule {
+    width: 85%;
+    height: 65%;
+    padding: 2rem 5px 0.5rem 11px;
+    background-color: rgba(236, 26, 17, 0.05);
+    border: 1px solid #ec1a11;
+    border-radius: 10px;
+    margin: 1rem;
+}
+/* ----main section three---- */
+    .section-three {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        width: ;
+    }
+    .after-sermon {
+        width: 550px;
+        height: 550px;
+        border-radius: 20px;
+    }
+    .section-three > button {
+        background-color: #ec1a11;
+        width: 287px;
+        height: 90px;
+        border-radius: 10px;
+    }
+/* -------footer------ */
 #main-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
