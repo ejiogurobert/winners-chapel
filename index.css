@@ -112,20 +112,39 @@ a {
     .section-three {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        width: ;
+        grid-template-rows: repeat(4, 1fr);
+        width: 80%;
+        margin: 0 auto;
+        grid-gap: 2.5rem;
+        padding-top: 4rem;
     }
     .after-sermon {
-        width: 550px;
-        height: 550px;
+        width: 25%;
+        height: 25%;
         border-radius: 20px;
     }
-    .section-three > button {
-        background-color: #ec1a11;
-        width: 287px;
-        height: 90px;
-        border-radius: 10px;
+    .service > img {
+        width: 100%;
+        height: 100%;
     }
+    .service {
+        width: 85%;
+        height: 74%;
+    }
+    .section-three button {
+        background-color: #ec1a11;
+        width: 193px;
+        font-size: 25px;
+        line-height: 40px;
+        /* font-weight: 600px; */
+        color: white;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 1.5rem;
+        border: none;
+    }
+    /* ------main section four------  */
+    
 /* -------footer------ */
 #main-footer {
     display: grid;
