@@ -98,6 +98,7 @@ a {
 .time-table {
     display: grid;   
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
 }
 .schedule {
     width: 85%;
@@ -123,6 +124,9 @@ a {
         height: 25%;
         border-radius: 20px;
     }
+    .sermon {
+        margin-top: 2rem;
+    }
     .service > img {
         width: 100%;
         height: 100%;
@@ -140,17 +144,52 @@ a {
         color: white;
         height: 40px;
         border-radius: 10px;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
         border: none;
     }
     /* ------main section four------  */
-    
+    .section-four {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: 0 auto;
+        background-color:#FEF4F3;
+    }
+    .section-four > div {
+        margin: 4rem 0 3rem 4rem;
+    }
+    .write-up {
+        margin-top: 2rem;
+    }
+    /* ------main section five------- */
+    .section-five {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 4rem;
+    }
+    .section-five > div {
+        margin: 2rem;
+    }
+    .recent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+    .recent-image {
+        width: 79%;
+        height: 64%;
+    }
+    .recent-image > img {
+        width: 100%;
+        height: 100%;
+    }
 /* -------footer------ */
 #main-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 3fr 1fr;
-    margin: 4rem 5%;
+    width: 70%;
+    margin: 0 auto;
 }
 .reversed {
     grid-column: 1/-1;
