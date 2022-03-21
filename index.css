@@ -178,10 +178,25 @@ a {
     .recent-image {
         width: 79%;
         height: 64%;
+        margin-top: -64px
     }
     .recent-image > img {
         width: 100%;
         height: 100%;
+    }
+    .play {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        background-color: #fff;
+        position: relative;
+        top: 60%;
+        left: 40%;
+    }
+    .play img {
+        width: 75%;
+        height: 75%;
+        margin: 8px 0 0 15px;
     }
 /* -------footer------ */
 #main-footer {
