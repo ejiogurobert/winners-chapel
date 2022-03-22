@@ -198,6 +198,17 @@ a {
         height: 75%;
         margin: 8px 0 0 15px;
     }
+    /* -----main section six----- */
+    .media-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+    .media {
+        height: 350px;
+        width: 350px;
+        border-radius: 30px;
+    }
 /* -------footer------ */
 #main-footer {
     display: grid;
