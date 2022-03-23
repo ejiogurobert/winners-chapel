@@ -168,7 +168,7 @@ a {
         padding-top: 4rem;
     }
     .section-five > div {
-        margin: 2rem;
+        margin: 2rem 2rem 0 2rem;
     }
     .recent {
         display: grid;
@@ -203,6 +203,8 @@ a {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
+        width: 80%;
+        margin: 0 auto;
     }
     .media {
         height: 350px;
